@@ -13,7 +13,11 @@ import Specialities from "./Specialities.vue";
           :show-btn="true"
     />
 
-    <specialities/>
+    <specialities
+    :show-btn="true"/>
+
+
+<!--    <gallery/>-->
 
   </primary-template>
 </template>

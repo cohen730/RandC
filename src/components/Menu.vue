@@ -13,10 +13,10 @@ import Hero from "./Hero.vue";
           headline="Our Menu"
     />
 
-    <h1>Menu</h1>
+    <h2>Menu</h2>
     <div class="card">
       <div v-for="(item, index) in menu.items" :key="index">
-        <foodcard :food-item="item" />
+        <foodcard :food-item="item"/>
       </div>
     </div>
   </primary-template>
@@ -30,10 +30,14 @@ div.card {
   //flex-direction: column;
   column-count: 3;
 }
-
+h2 {
+  text-align: left;
+}
 
 @media screen and (width >= 600px) {
-  //height: 600px;
+  h2 {
+    text-align: center;
+  }
 }
 
 @media screen and (width >= 1000px) {

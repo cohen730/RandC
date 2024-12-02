@@ -45,6 +45,7 @@ section.primary-template {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 
     .logo {
       height: 100%;

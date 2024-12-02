@@ -17,6 +17,13 @@ body {
         text-transform: uppercase;
         margin: 0 0 1rem;
     }
+    h2 {
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 4rem; /* 162.5% */
+        text-transform: uppercase;
+    }
 
     h3 {
         font-size: 20px;
@@ -29,9 +36,15 @@ body {
         h1 {
             font-size: 4rem;
         }
+    h2{
+        font-size: 2.25rem;
+    }
     }
 
     /* Desktop and up */
     @media screen and (width >= 1000px) {
+        h2{
+            font-size: 2.5rem;
+        }
     }
 }
