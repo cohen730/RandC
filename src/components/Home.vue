@@ -3,6 +3,8 @@
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 import Hero from "../components/Hero.vue";
 import Specialities from "./Specialities.vue";
+import WeCater from "./we-cater.vue";
+import AboutUs from "./about-us.vue";
 </script>
 
 <template>
@@ -13,11 +15,13 @@ import Specialities from "./Specialities.vue";
           :show-btn="true"
     />
 
-    <specialities
-    :show-btn="true"/>
+    <specialities :show-btn="true"/>
+    <!--    <gallery/>-->
+    <we-cater
+      :show-btn="true"/>
 
-
-<!--    <gallery/>-->
+    <about-us
+      :show-btn="true"/>
 
   </primary-template>
 </template>

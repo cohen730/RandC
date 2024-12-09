@@ -4,6 +4,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 
 <template>
 <primary-template></primary-template>
+
 </template>
 
 <style scoped>

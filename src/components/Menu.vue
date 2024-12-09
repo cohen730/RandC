@@ -1,7 +1,7 @@
 <script setup>
 
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-import Foodcard from "./FoodPreviewCard.vue";
+import FoodPreviewCard from "./FoodPreviewCard.vue";
 import menu from "../restaurant_menu.js";
 import Hero from "./Hero.vue";
 
@@ -13,17 +13,17 @@ import Hero from "./Hero.vue";
           headline="Our Menu"
     />
 
-    <h2>Menu</h2>
-    <div class="card">
+    <h2>Tacos</h2>
+    <div class="cards">
       <div v-for="(item, index) in menu.items" :key="index">
-        <foodcard :food-item="item"/>
+        <food-preview-card :food-item="item"/>
       </div>
     </div>
   </primary-template>
 </template>
 
 <style scoped>
-div.card {
+div.cards {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
