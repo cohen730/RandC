@@ -24,7 +24,8 @@ defineProps({
     Whether you’re savoring familiar favorites or discovering something new, we invite you to experience the essence of
     Mexico, where every meal feels like home.</p>
   <div class="button">
-    <cta-button v-if="showBtn" btn-copy="Read More"/>
+    <cta-button v-if="showBtn" btn-route="about" btn-copy="Read More!"/>
+
   </div>
 
 </template>
@@ -45,6 +46,7 @@ h2 {
 
 div.button {
   justify-items: center;
+  margin-top: 2rem;
 }
 
 @media screen and (width >= 650px) {

@@ -23,7 +23,7 @@ defineProps({
   </section>
 
   <div class="button">
-    <cta-button v-if="showBtn" btn-copy="See Full Menu"/>
+    <cta-button v-if="showBtn" btn-route="menu" btn-copy="See Full Menu"/>
   </div>
 </template>
 
@@ -37,6 +37,7 @@ section.specialities {
 
 div.button {
   justify-items: center;
+  margin-top: 2rem;
 }
 
 h2 {

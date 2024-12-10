@@ -20,7 +20,7 @@ defineProps({
   </div>
 
   <div class="button">
-    <cta-button v-if="showBtn" btn-copy="See More"/>
+    <cta-button v-if="showBtn" btn-route="catering" btn-copy="See More"/>
   </div>
 </template>
 
@@ -39,6 +39,7 @@ h2 {
 
 div.button {
   justify-items: center;
+  margin-top: 2rem;
 }
 @media screen and (width >= 650px) {
   h2 {

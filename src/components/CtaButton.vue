@@ -3,13 +3,18 @@ defineProps({
   btnCopy: {
     type: String,
     required: true
+  },
+  btnRoute: {
+    type: String,
+    required: true,
+    default: 'home'
   }
 })
 </script>
 
 <template>
   <div class="cta-button">
-    <a href="#">{{ btnCopy }}</a>
+    <router-link :to=" { name: btnRoute }">{{ btnCopy }}</router-link>
   </div>
 </template>
 
