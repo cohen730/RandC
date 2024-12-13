@@ -7,7 +7,7 @@ import CtaButton from "../components/CtaButton.vue";
     <header>
       <div class="top-nav">
         <router-link :to="{ name: 'menu' }">Menu</router-link>
-        <router-link :to="{ name: 'gallery' }">Gallery</router-link>
+        <router-link :to="{ name: 'gallery-page' }">Gallery</router-link>
         <router-link :to="{ name: 'catering' }">Catering</router-link>
         <router-link :to="{ name: 'about' }">About Us</router-link>
       </div>

@@ -56,7 +56,6 @@ div.button {
   p {
     text-align: center;
     margin: 2rem;
-    //width: 75%;
   }
 
 }

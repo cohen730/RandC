@@ -3,7 +3,7 @@ import Home from "./components/Home.vue";
 import About from "./components/about.vue";
 import catering from "./components/catering.vue";
 import Menu from "./components/Menu.vue";
-import Gallery from "./components/gallery.vue";
+import Gallery from "./components/gallery-page.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,8 +30,8 @@ const router = createRouter({
             component: Menu
         },
         {
-            path: '/gallery',
-            name: 'gallery',
+            path: '/gallery-page',
+            name: 'gallery-page',
             component: Gallery
         }
     ]

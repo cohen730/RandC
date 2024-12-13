@@ -36,13 +36,6 @@ import Hero from "../components/Hero.vue";
       <label for="delivery-details">Delivery Details</label>
       <input type="text" id="delivery-details" name="delivery-details" placeholder="Enter your delivery address and preferred time..">
 
-<!--      <label for="country">Country</label>-->
-<!--      <select id="country" name="country">-->
-<!--        <option value="australia">Australia</option>-->
-<!--        <option value="canada">Canada</option>-->
-<!--        <option value="usa">USA</option>-->
-<!--      </select>-->
-
       <label for="message">Message</label>
       <textarea id="message" name="message" placeholder="Tell us what items you would like .." style="height:200px"></textarea>
 

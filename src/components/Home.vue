@@ -5,6 +5,7 @@ import Hero from "../components/Hero.vue";
 import Specialities from "./Specialities.vue";
 import WeCater from "./we-cater.vue";
 import AboutUs from "./about-us.vue";
+import gallery from "./gallery.vue";
 </script>
 
 <template>
@@ -16,7 +17,8 @@ import AboutUs from "./about-us.vue";
     />
 
     <specialities :show-btn="true"/>
-    <!--    <gallery/>-->
+        <gallery
+        :show-btn="true"/>
     <we-cater
       :show-btn="true"/>
 
