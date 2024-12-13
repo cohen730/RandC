@@ -13,13 +13,13 @@ import CtaButton from "../components/CtaButton.vue";
       </div>
 
       <div class="breadcrumbs">
-        breadcrumbs
+        <img src="../../src/assets/breadcrumbs.svg" alt="breadcrumbs">
       </div>
 
-      <cta-button class="order-online" btn-copy="Order Online"/>
+      <cta-button class="order-online" btn-route="menu" btn-copy="Order Online"/>
 
       <div class="logo">
-        <router-link :to="{ name: 'home' }"><img src="../../src/assets/logo-web.png" alt="logo"/></router-link>
+        <router-link :to="{ name: 'home' }"><img src="../../src/assets/catalinaslogo-02.svg" alt="logo"/></router-link>
       </div>
     </header>
 
@@ -28,8 +28,6 @@ import CtaButton from "../components/CtaButton.vue";
     </section>
 
     <footer>
-      <!--      <div class="copyright">Main Dishes</div>-->
-      <!--      <div class="back-to-top">Go to top of page</div>-->
     </footer>
   </section>
 </template>
@@ -46,6 +44,11 @@ section.primary-template {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    .breadcrumbs {
+      display: unset;
+      width: 5%;
+    }
 
     .logo {
       height: 100%;
@@ -73,6 +76,11 @@ section.primary-template {
   @media screen and (width >= 600px) {
     header {
 
+      .breadcrumbs {
+        display: unset;
+        width: 5%;
+      }
+
       .logo {
         order: 2;
       }
@@ -80,23 +88,6 @@ section.primary-template {
       .order-online {
         display: unset;
         order: 4;
-      }
-    }
-    .content {
-      //color: white;
-
-      h1 {
-        //font-size: 64px;
-        //font-style: normal;
-        //font-weight: 900;
-        //line-height: 65px; /* 101.563% */
-        //text-transform: uppercase;
-      }
-      h3 {
-        //font-size: 32px;
-        //font-style: normal;
-        //font-weight: 350;
-        //line-height: 40px; /* 125% */
       }
     }
 
@@ -117,23 +108,7 @@ section.primary-template {
         }
       }
     }
-    .content {
-      //color: white;
 
-      h1 {
-        //font-size: 64px;
-        //font-style: normal;
-        //font-weight: 900;
-        //line-height: 65px; /* 101.563% */
-        //text-transform: uppercase;
-      }
-      h3 {
-        //font-size: 32px;
-        //font-style: normal;
-        //font-weight: 350;
-        //line-height: 40px; /* 125% */
-      }
-    }
   }
 
 }

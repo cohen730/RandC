@@ -29,7 +29,6 @@ defineProps({
 
 <style scoped>
 section.specialities {
-  //border: 10px solid white;
   display: flex;
   gap: 1rem;
   flex-direction: column;

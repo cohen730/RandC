@@ -1,17 +1,10 @@
 <script setup>
 
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
-import menu from "../restaurant_menu.js"
 </script>
 
 <template>
   <primary-template>
-    <!--    <h1>This is my About page</h1>-->
-
-    <!--    <div v-for="(item, index) in menu.items" :key="index">-->
-    <!--      {{ item.name}}, {{ item.price }}, {{item.description}}, {{item.ingredients}}-->
-    <!--    </div>-->
-
     <div class="content">
       <img src="../assets/family.jpg" alt="Family">
     </div>
@@ -47,7 +40,6 @@ import menu from "../restaurant_menu.js"
 <style scoped>
 .content {
   text-align: center;
-  //align-content: center;
 
   h2 {
     text-align: left;
@@ -67,7 +59,6 @@ import menu from "../restaurant_menu.js"
   p {
     text-align: center;
     margin: 2rem;
-    //width: 75%;
   }
 }
 
@@ -75,7 +66,7 @@ import menu from "../restaurant_menu.js"
   p {
     text-align: center;
     margin: 1rem 4rem;
-    //padding: 0 15rem;
+
   }
 }
 </style>
