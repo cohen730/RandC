@@ -38,7 +38,6 @@ section.primary-template {
 
   header {
     height: 10vh;
-    border: 1px solid white;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +70,6 @@ section.primary-template {
   .main {
   }
 
-
   /* Tablet and up */
   @media screen and (width >= 600px) {
     header {
@@ -90,7 +88,6 @@ section.primary-template {
         order: 4;
       }
     }
-
   }
 
   /* Desktop and up */

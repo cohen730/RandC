@@ -4,24 +4,21 @@ body {
     color: #FFF;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: Avenir, sans-serif;
-    /*font-size: 32px;*/
-    /*font-style: normal;*/
-    /*font-weight: 350;*/
-    /*line-height: 40px; !* 125% *!*/
 
     h1 {
         font-size: 3rem;
         font-style: normal;
         font-weight: 900;
-        line-height: 50px; /* 104.167% */
+        line-height: 50px;
         text-transform: uppercase;
         margin: 0 0 1rem;
     }
+
     h2 {
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 900;
-        line-height: 4rem; /* 162.5% */
+        line-height: 4rem;
         text-transform: uppercase;
     }
 
@@ -30,11 +27,12 @@ body {
         font-style: normal;
         font-weight: 350;
     }
+
     h4 {
         font-size: 1.25rem;
         font-style: normal;
         font-weight: 900;
-        line-height: 1.875rem; /* 150% */
+        line-height: 1.875rem;
         text-align: center;
     }
 
@@ -44,23 +42,26 @@ body {
         h1 {
             font-size: 4rem;
         }
-    h2{
-        font-size: 2rem;
-        text-align: center;
-    }
-    h4{
-        font-size: 1.5rem;
-        font-style: normal;
-        font-weight: 900;
-    }
+
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 900;
+        }
     }
 
     /* Desktop and up */
     @media screen and (width >= 1000px) {
-        h2{
+        h2 {
             font-size: 2.5rem;
         }
-        h4{
+
+        h4 {
             font-size: 2rem;
             font-style: normal;
             font-weight: 900;

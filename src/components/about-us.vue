@@ -19,7 +19,7 @@ defineProps({
   </div>
   <p>At Catalina’s Cocina, we bring the heart of Mexico to every dish we serve. Founded in honor of Catalina, our
     recipes are filled with the love, warmth, and culture passed down through the years.
-</p>
+  </p>
   <p>
     Whether you’re savoring familiar favorites or discovering something new, we invite you to experience the essence of
     Mexico, where every meal feels like home.</p>
@@ -53,6 +53,7 @@ div.button {
   h2 {
     text-align: center;
   }
+
   p {
     text-align: center;
     margin: 2rem;

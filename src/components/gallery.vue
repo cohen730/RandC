@@ -13,18 +13,19 @@ defineProps({
 </script>
 
 <template>
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
-      <img src="../assets/burrito-asada.png" alt="burrito asada">
-      <img src="../assets/cooking.jpg" alt="cooking">
-      <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
-      <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
-      <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
-      <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
-      <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
-      <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
-    </div>
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="../assets/beverages-jamaica.png" alt="jamaica drink">
+    <img src="../assets/burrito-asada.png" alt="burrito asada">
+    <img src="../assets/cooking.jpg" alt="cooking">
+    <img src="../assets/entree-arroz-con-frijoles.png" alt="rice and beans">
+    <img src="../assets/entree-carne-asada.png" alt="carne asada">
+    <img src="../assets/quesadillas-supreme.png" alt="quesadillas">
+    <img src="../assets/dessert-churros.png" alt="churros">
+    <img src="../assets/entree-mole.png" alt="mole">
+    <img src="../assets/burrito-ranchero.png" alt="burrito">
+    <img src="../assets/family.jpg" alt="family">
+  </div>
   <div class="button">
     <cta-button v-if="showBtn" btn-route="gallery-page" btn-copy="View More"/>
 
@@ -67,6 +68,7 @@ defineProps({
     }
 
   }
+
   div.button {
     justify-items: center;
     margin-top: 2rem;

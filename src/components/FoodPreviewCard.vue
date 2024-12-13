@@ -62,7 +62,6 @@ section.food-preview-card {
   }
 }
 
-
 @media screen and (width >= 1000px) {
 
   section.food-preview-card {

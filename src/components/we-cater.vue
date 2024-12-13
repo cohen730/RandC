@@ -14,9 +14,9 @@ defineProps({
 </script>
 
 <template>
-<h2>We Cater!</h2>
+  <h2>We Cater!</h2>
   <div class="content">
-  <img src="../assets/hero-catering.png" alt="catering">
+    <img src="../assets/hero-catering.png" alt="catering">
   </div>
 
   <div class="button">
@@ -28,6 +28,7 @@ defineProps({
 h2 {
   text-align: left;
 }
+
 .content {
   text-align: center;
 
@@ -41,6 +42,7 @@ div.button {
   justify-items: center;
   margin-top: 2rem;
 }
+
 @media screen and (width >= 650px) {
   h2 {
     text-align: center;

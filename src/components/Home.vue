@@ -17,13 +17,13 @@ import gallery from "./gallery.vue";
     />
 
     <specialities :show-btn="true"/>
-        <gallery
+    <gallery
         :show-btn="true"/>
     <we-cater
-      :show-btn="true"/>
+        :show-btn="true"/>
 
     <about-us
-      :show-btn="true"/>
+        :show-btn="true"/>
 
   </primary-template>
 </template>

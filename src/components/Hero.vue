@@ -28,7 +28,7 @@ import CtaButton from "./CtaButton.vue";
     <div class="content">
       <h1>{{ headline }}</h1>
       <h3 v-if="subHead">{{ subHead }}</h3>
-      <cta-button v-if="showBtn" btn-copy="Order Online"/>
+      <cta-button v-if="showBtn" btn-route="menu" btn-copy="Order Online"/>
     </div>
   </section>
 </template>
@@ -40,7 +40,6 @@ section.hero {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid yellow;
   position: relative;
   padding: 0 1rem 2rem;
 
